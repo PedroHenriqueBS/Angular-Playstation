@@ -1,1 +1,16 @@
+.sony {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 10px;
+	background-color: #000;
+	height: 30px;
+}
 
+img {
+	height: 15px;
+}
+
+.home__header {
+	padding-top: 60px;
+}
