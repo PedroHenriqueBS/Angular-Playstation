@@ -11,6 +11,14 @@ img {
 	height: 15px;
 }
 
-.home__header {
-	padding-top: 60px;
+.home__menu {
+	position: sticky;
+	top: 0;
+}
+
+.home__slide {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }

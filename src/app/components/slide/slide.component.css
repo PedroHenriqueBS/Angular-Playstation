@@ -1,0 +1,27 @@
+.slide__container {
+	margin: 35px auto;
+	max-width: 1200px;
+}
+
+.slide__card {
+	background-image: url('../../../assets/img/resident.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 250px;
+	height: 150px;
+	border-radius: 20px;
+	margin-right: 10px;
+	filter: opacity(0.6);
+	transition: .5s;
+}
+
+.slide__card:hover {
+	filter: opacity(1);
+	transform: translateY(-10px);
+	cursor: pointer;
+	filter: drop-shadow(2px 10px 5px rgb(146, 146, 146));
+}
+
+
+

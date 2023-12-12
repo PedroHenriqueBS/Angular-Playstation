@@ -5,7 +5,8 @@
 	align-items: center;
 	width: 100vw;
 	padding: 0 25px;
-	position: fixed;
+	background-color: #fff;
+
 }
 
 .menu__logo {
