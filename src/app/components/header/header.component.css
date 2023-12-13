@@ -40,15 +40,23 @@
 	color: #fff;
 }
 
-.header__button > button {
-	cursor: pointer;
-	margin: 5px 0;
-	padding: 10px 15px;
+.header__button {
+	background-color: rgba(254, 254, 254, 0);
+	padding: 2px 2px;
 	border-radius: 20px;
-	font-weight: bold;
 }
 
-.header__button button:hover {
-	box-shadow: inset 2px 2px 5px rgb(80, 80, 80);
+.header__button > button {
+	cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 20px;
+	font-weight: bold;
+	border: 2px solid rgba(27, 27, 27, 0.929);
 }
+
+.header__button:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+
 

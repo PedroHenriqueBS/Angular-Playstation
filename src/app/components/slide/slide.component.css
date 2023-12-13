@@ -1,6 +1,7 @@
 .slide__container {
 	margin: 35px auto;
 	max-width: 1200px;
+
 }
 
 .slide__card {
@@ -8,8 +9,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 250px;
-	height: 150px;
+	width: 220px;
+	height: 120px;
 	border-radius: 20px;
 	margin-right: 10px;
 	filter: opacity(0.6);

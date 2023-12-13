@@ -1,0 +1,58 @@
+.store__container {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.store__info {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 400px;
+}
+
+.store__info > h1 {
+	font-size: 3rem;
+	font-weight: 350;
+	letter-spacing: 2px;
+}
+
+.store__info > span {
+	font-size: 1.7rem;
+	font-weight: 350;
+	color: #0070CC;
+}
+
+.store__info > p {
+	font-size: .9rem;
+	font-weight: 400;
+	color: rgb(104, 104, 104);
+}
+
+.store__button {
+	width: max-content;
+	padding: 2px 2px;
+	border-radius: 20px;
+	background-color: rgba(0, 255, 255, 0);
+}
+
+.store__button > button {
+	width: max-content;
+	padding: 10px 20px;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	background-color: #0070CC;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.store__button:hover {
+	background-color: #0070CC;
+}
+
