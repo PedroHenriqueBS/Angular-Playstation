@@ -8,6 +8,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SlideComponent } from './components/slide/slide.component';
 import { StoreComponent } from './components/store/store.component';
+import { GamesComponent } from './components/games/games.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StoreComponent } from './components/store/store.component';
 		MenuComponent,
   	HeaderComponent,
    SlideComponent,
-   StoreComponent
+   StoreComponent,
+   GamesComponent
   ],
   imports: [
     BrowserModule,

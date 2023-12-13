@@ -1,0 +1,23 @@
+.games__card {
+	background-image: url('../../../assets/img/resident.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgb(21, 21, 21);
+	margin-bottom: 5px;
+	cursor: pointer;
+	transition: 0.5s;
+	filter: opacity(0.7);
+}
+
+.games__card:hover {
+	transform: scale(1.05);
+	filter: opacity(1);
+}
+
+span {
+	color: #fff;
+}
