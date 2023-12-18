@@ -10,8 +10,55 @@ input:focus, textarea:focus, select:focus {
 	outline: 0;
  }
 
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #0450b4;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #033d89;
+}
+
 body {
 	/*background: rgb(2,0,36);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,119,1) 34%, rgba(17,17,177,1) 72%); */
 	background-color: #fff;
 }
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 1305px) {
+	.menu__item a {
+		font-size: 0.7rem;
+	}
+	#menu__btn {
+		font-size: 0.7rem;
+	}
+	.menu__search {
+		padding: 3px;
+	}
+
+	.menu__search input {
+		width: 5rem;
+	}
+	.menu__search > ::placeholder {
+		color: #1f1f1f;
+		font-size: 0.7rem;
+	}
+	.menu__item li {
+		padding-right: 1rem;
+	}
+}
+
+
+@media screen and (max-width: 1140px) {
+
+	.home__slide--grid {
+    grid-auto-flow: column;
+    overflow: auto hidden;
+		padding-bottom: 10px;
+	}
+ }

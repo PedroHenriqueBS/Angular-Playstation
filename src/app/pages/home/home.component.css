@@ -1,5 +1,10 @@
+.home__container {
+	width: 100%;
+	position: relative;
+}
+
 .sony {
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -15,14 +20,23 @@
 .home__menu {
 	position: sticky;
 	top: 0;
+	z-index: 999;
 }
 
 .home__slide {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 50px;
+	max-width: 1200px;
+	margin: 30px auto 50px;
+}
+
+.home__slide--grid {
+	display: grid;
+	grid-template-columns: repeat(5, 200px);
+	gap: 25px;
+	padding-top: 10px;
+	margin: 0 15px;
 }
 
 .home__store {
@@ -30,7 +44,7 @@
 }
 
 .home__games {
-	width: 100vw;
+	width: 100%;
 	background-color: #202020;
 	padding-bottom: 50px;
 }
