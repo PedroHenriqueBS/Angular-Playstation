@@ -12,6 +12,10 @@
 	padding-right: 2rem;
 }
 
+.menu__logo--meio {
+	display: none;
+}
+
 .menu__left {
 	display: flex;
 	flex-direction: row;
@@ -19,9 +23,15 @@
 	padding-bottom: 5px;
 }
 
+#menu__burger {
+	display: none;
+	cursor: pointer;
+}
+
 .menu__item ul {
 	display: flex;
 	list-style: none;
+	background-color: #fff;
 }
 
 .menu__item li {

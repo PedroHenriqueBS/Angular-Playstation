@@ -32,8 +32,7 @@
 }
 
 .home__slide--grid {
-	display: grid;
-	grid-template-columns: repeat(5, 200px);
+	display: flex;
 	gap: 25px;
 	padding-top: 10px;
 	margin: 0 15px;
