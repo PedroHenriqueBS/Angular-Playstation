@@ -35,6 +35,24 @@
 	color: rgb(104, 104, 104);
 }
 
+.store__oculto {
+	display: none;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.store__oculto > span {
+	font-size: 1.7rem;
+	font-weight: 350;
+	color: #0070CC;
+}
+
+.store__oculto > p {
+	font-size: .9rem;
+	font-weight: 400;
+	color: rgb(104, 104, 104);
+}
+
 .store__button {
 	width: max-content;
 	padding: 2px 2px;
@@ -54,6 +72,28 @@
 }
 
 .store__button:hover {
+	background-color: #0070CC;
+}
+
+.store__button1 {
+	width: max-content;
+	padding: 2px 2px;
+	border-radius: 20px;
+	background-color: rgba(0, 255, 255, 0);
+}
+
+.store__button1 > button {
+	width: max-content;
+	padding: 10px 20px;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	background-color: #0070CC;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.store__button1:hover {
 	background-color: #0070CC;
 }
 
