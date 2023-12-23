@@ -94,6 +94,9 @@ body {
 	.sony > img {
 		height: 10px
 	}
+	.games__container > h1 {
+		font-size: 2rem;
+	}
  }
 
  @media screen and (max-width: 873px) {
@@ -166,5 +169,17 @@ body {
 	.store__info > h1 {
 		font-size: 2rem;
 	}
+ }
+
+ @media screen and (max-width: 580px) {
+	.games__card {
+		width: 200px;
+		height: 200px;
+	}
+
+	.store__produto > img{
+		width: 250px;
+	}
+
  }
 

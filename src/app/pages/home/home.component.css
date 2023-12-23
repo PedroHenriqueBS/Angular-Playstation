@@ -44,6 +44,8 @@
 
 .home__games {
 	width: 100%;
+	display: flex;
+	justify-content: center;
 	background-color: #202020;
 	padding-bottom: 50px;
 	margin-bottom: 30px;
@@ -51,11 +53,11 @@
 
 .games__container {
 	padding-top: 30px;
-	display: flex;
-	flex-direction: column;
-	gap: 50px;
-	max-width: 1400px;
-	margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 1400px;
+  margin: 0 20px;
 }
 
 .games__container > h1 {
@@ -63,6 +65,7 @@
 	font-weight: 300;
 	font-size: 2.5em;
 	text-align: center;
+	margin: 0 20px;
 }
 
 .games__container > span {
@@ -83,14 +86,12 @@
 }
 
 .home__card {
+	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
 	gap: 20px;
-}
-
-.home__card-vr {
-	margin-top: 100px;
+	justify-content: center;
+	align-items: center;
 }
 
 .home__footer {
