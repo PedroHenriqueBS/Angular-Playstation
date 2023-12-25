@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-slide',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./slide.component.css' , '../../../styles.css']
 })
 export class SlideComponent {
-
+	@Input()
+	imgSlide:string = ''
 }

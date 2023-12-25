@@ -1,11 +1,8 @@
-
-.games__card {
-	background-image: url('../../../assets/img/resident.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 250px;
-	height: 250px;
+.games__card > img {
+	width: 210px;
+	height: 210px;
+	object-fit: cover;
+	object-position: top;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px rgb(21, 21, 21);
 	margin-bottom: 5px;
@@ -14,7 +11,7 @@
 	filter: opacity(0.7);
 }
 
-.games__card:hover {
+.games__card > img:hover {
 	transform: scale(1.05);
 	filter: opacity(1);
 }

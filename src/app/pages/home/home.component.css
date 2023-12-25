@@ -39,7 +39,7 @@
 }
 
 .home__store {
-	margin: 0 50px 50px;
+	margin: 100px 50px;
 }
 
 .home__games {
@@ -71,6 +71,7 @@
 
 .home__card {
 	width: 100%;
+	max-width: 1300px;
 	display: flex;
 	flex-flow: row wrap;
 	gap: 20px;
