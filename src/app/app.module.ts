@@ -10,6 +10,9 @@ import { SlideComponent } from './components/slide/slide.component';
 import { StoreComponent } from './components/store/store.component';
 import { GamesComponent } from './components/games/games.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ButtonComponent } from './components/button/button.component';
+import { ButtonBlueComponent } from './components/button/button-blue/button-blue.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { FooterComponent } from './components/footer/footer.component';
    	SlideComponent,
    	StoreComponent,
    	GamesComponent,
-   	FooterComponent
+   	FooterComponent,
+    ButtonComponent,
+    ButtonBlueComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,21 @@
+.header__button {
+	width: auto;
+	background-color: rgba(254, 254, 254, 0);
+	padding: 2px 2px;
+	border-radius: 20px;
+	transition: .3s;
+}
+
+.myButton {
+	cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 20px;
+	font-weight: bold;
+	border: 2px solid rgba(27, 27, 27, 0.929);
+}
+
+.header__button:hover {
+	background-color: #ffffff;
+	cursor: pointer;
+}
+

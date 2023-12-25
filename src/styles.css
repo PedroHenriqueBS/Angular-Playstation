@@ -63,9 +63,10 @@ body {
 		justify-content: center;
 	}
 
-	.store__info > p, .store__info > span, .store__button1 {
+	.store__info :is(span, p, app-button-blue) {
 		display: none;
 	}
+
 	.store__oculto {
 		display: flex;
 		align-items: center;
