@@ -3,15 +3,25 @@
 <div class="menu__container">
 	<div class="menu__left">
 		<div class="menu__logo">
-			<img src="../../../assets/img/logo2.png" alt="logo" width="50px">
+			<a href="#init"><img src="../../../assets/img/logo2.png" alt="logo" width="50px"></a>
 		</div>
 		<div class="menu__item">
-			<span id="menu__burger" class="material-symbols-outlined" onclick="clickMenu()">
+			<span id="menu__burger" class="material-symbols-outlined" (click)="clickMenu()">
 				menu
 			</span>
 				<ul id="menu__ul">
-					<li><a href="#">Jogos</a></li>
-					<li><a href="#">PS5</a></li>
+					<li (click)="menuAbrir()" id="jogos" class="flecha"><a href="#">Jogos</a>
+						<div class="menu__abrir">
+							<ul class="menu__click-jogos">
+								<li>Resident Evil 4</li>
+								<li>Spider-Man 2</li>
+								<li>NBA 2k24</li>
+								<li>Street Fighter 6</li>
+								<li>EA SPORTS™ FC 24</li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#" id="ps5">PS5</a></li>
 					<li><a href="#">PS4</a></li>
 					<li><a href="#">Serviços</a></li>
 					<li><a href="#">Acessórios</a></li>

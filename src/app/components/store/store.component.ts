@@ -14,4 +14,6 @@ export class StoreComponent {
 	descriptionStore:string = ''
 	@Input()
 	imagemStore:string = ''
+
+	
 }
