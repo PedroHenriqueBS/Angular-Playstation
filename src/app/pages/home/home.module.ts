@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { AppRoutingModule } from 'src/app/app-routing.module';
 
 import { HomeComponent } from './home.component';
 import { MenuComponent } from '../../components/menu/menu.component';
@@ -23,7 +24,7 @@ import { ButtonBlueComponent } from '../../components/button/button-blue/button-
 		ButtonComponent
 	],
 
-  imports: [],
+  imports: [AppRoutingModule],
   exports: [HomeComponent],
   providers: [],
 })

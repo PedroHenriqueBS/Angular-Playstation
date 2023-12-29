@@ -4,16 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './pages/home/home.module';
-import { PagesComponent } from './pages/pages.component';
-import { SessionComponent } from './pages/session/session.component';
+import { SessionModule } from './pages/session/session.module';
 
 
 @NgModule({
-  declarations: [AppComponent, PagesComponent, SessionComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-		HomeModule
+		HomeModule,
+		SessionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
